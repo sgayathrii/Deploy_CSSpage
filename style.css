@@ -1,0 +1,55 @@
+body{
+    margin:0px;
+    padding:0px;
+    }
+
+.topnav{
+    background-color: rgb(81, 22, 116);
+    color: whitesmoke;
+    overflow:hidden;
+    display:flex;
+    column-gap:10%;
+    font-size: large;
+    }
+
+.topnav a{
+    align-items: end;
+    text-align: center;
+    display:block;
+    padding: 25px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.intro{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: center; 
+}
+
+.content{
+    position: absolute;
+    margin-right: 100px;
+    width: 465px;
+    height: 300px;
+    top:250px;
+    font-size: 80px;
+    line-height: 800px;
+    font-weight:400px;
+
+    
+}
+#btn1{
+    color: whitesmoke;
+    background-color: palevioletred;
+    width: 25%;
+    font-size:15px;
+    cursor:pointer;
+    border-radius:5px;
+    border: none;
+}
+
+
+
+
